@@ -2,9 +2,9 @@ const axios = require('axios');
 const _ = require('lodash');
 
 const verbosePrint = true;
-const limitPrint = 30;
+const limitPrint = 500;
 const stationKey = 'wlum';
-const trackTops = false;
+const trackTops = true;
 
 (async () => {
     const knownBadSongs = [
@@ -72,6 +72,7 @@ const trackTops = false;
         'bastille x marshmello': 'bastille',
         'death cab for cutie/postal service': 'death cab for cutie',
         'gorillaz/blur': 'gorillaz',
+        'gorillaz, andre 3000, james murph': 'gorillaz',
         'jack white': 'white stripes',
         'twenty one pilots': '21 pilots',
     }
